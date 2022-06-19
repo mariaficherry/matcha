@@ -118,6 +118,7 @@ li {
 
 .publish > form {
     display: flex;
+    align-items: center;
 }
 
 .publish > form p {
