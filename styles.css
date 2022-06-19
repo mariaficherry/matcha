@@ -1,0 +1,152 @@
+body {
+    background-color: #fffbf7;
+    margin: 150px;
+}
+
+h1 {
+    color: #025157;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
+
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    font-family: sans-serif;
+}
+
+.fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
+li {
+    display: inline;
+    margin: 0 25px 0;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo > img {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions > * {
+    margin: 0;
+}
+
+.actions a {
+    color: #67b54b;
+    margin-right: 10px;
+}
+
+.actions button {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.main {
+    margin-top: 285px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.publish {
+    /*container styles if any*/
+    margin-left: 30px;
+}
+
+.publish  h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    align-items: center;
+}
+
+.publish > form {
+    display: flex;
+}
+
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.promo {
+    display: flex;
+    width: 70%
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.explanatory-video img {
+    width: 100px;
+}
+
+
+.youtube-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
