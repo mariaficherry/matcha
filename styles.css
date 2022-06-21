@@ -144,10 +144,49 @@ li {
     width: 100px;
 }
 
-
 .youtube-video {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
 }
+
+.cases {
+    background-color: #a1d683;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cases .overview {
+    padding-right: 100px;
+}
+
+.cases .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51 px;
+    line-height: 61px;
+    color: #025157;
+}
+
+/* .cases .overview p {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+} */
+
+.figure {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    margin-right: -100%;
+}
+
