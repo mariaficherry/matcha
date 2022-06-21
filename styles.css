@@ -1,6 +1,6 @@
 body {
     background-color: #fffbf7;
-    margin: 150px;
+    margin: 0; 
 }
 
 h1 {
@@ -86,7 +86,6 @@ li {
     border: 0;
     border-radius: 5px;
     margin-right: 10px;
-
 }
 
 .main {
@@ -114,6 +113,7 @@ li {
     margin-bottom: 20px;
     text-align: justify;
     align-items: center;
+    padding-right: 200px;
 }
 
 .publish > form {
@@ -129,7 +129,6 @@ li {
 .promo {
     display: flex;
     width: 100%;
-    margin: 20px 20px;
     align-items: center;
 }
 
@@ -138,6 +137,7 @@ li {
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
+    padding-left: 200px;
 }
 
 .explanatory-video img {
@@ -149,44 +149,89 @@ li {
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    padding-bottom: 200px;
 }
 
 .cases {
-    background-color: #a1d683;
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    background-color: #a1d683;
+    margin: 0;
+    padding: 10% 15%;
 }
 
 .cases .overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-right: 100px;
 }
 
 .cases .overview h2 {
-    font-family: "Alegreya", serif;
-    font-size: 51 px;
-    line-height: 61px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
     color: #025157;
 }
 
-/* .cases .overview p {
-    color: #8b8b8bcc;
-    margin-top: 15px;
-} */
-
-.figure {
-    display: block;
+.cases .overview p {
+    
+    margin-bottom: 20px;
+    text-align: justify;
+    align-items: center;
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
+.figure > img {
+    display: block;
+    width: 50px;
+    
 }
 
 .carousel-item {
-    position: relative;
-    width: 100%;
-    margin-right: -100%;
+    display: flex;
+    background-color:#fffbf7;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 40px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.carousel-item .card-header img {
+    margin-top: -50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carousel-item .card-header .company img {
+    width: 30%;
+    padding: 80px 50px 0;
+}
+
+.carousel-item .card-body {
+    /* background-color:#fffbf7;
+    width: 100%; */
+    padding: 0 20px 20px;
+    margin: 0;
+}
+
+.carousel-item .card-body h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #025157;
+    font-size: 30px; 
+}
+
+.carousel-item .card-body h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #343434;
+    text-align: justify; 
+}
+
+.carousel-item .card-footer button {
+    position: relative;
+    align-items: center;
+}
