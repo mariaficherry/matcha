@@ -290,8 +290,18 @@ li {
 }
 
 /*Media queries*/
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     body {
         background-color: yellow;
     }
-}
+} */
+
+@media (max-width: 575px) {
+    .navbar,
+    .actions {
+        display: none;
+    }
+    h1 {
+        font-size: 45px;
+    }
+} 
