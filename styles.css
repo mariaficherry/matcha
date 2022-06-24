@@ -7,7 +7,7 @@ h1 {
     color: #025157;
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 p {
@@ -302,6 +302,6 @@ li {
         display: none;
     }
     h1 {
-        font-size: 45px;
+        font-size: 30px;
     }
 } 
