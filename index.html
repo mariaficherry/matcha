@@ -4,8 +4,9 @@
    <!--Aquí va la información importante pero no visible dentro del navegador--> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     <title>Matcha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +14,13 @@
 </head>
 
 <body>
-    <section class="fix">
+    <!-- <section class="fixed-header">
       <header class="header">
-        <!--Logo, regresa a página principal-->
+
        <a href="/" class="logo">
-        <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha" >
+        <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
        </a>
-       <!--Menú-->
+
        <nav class="navbar">
            <ul>
                 <li>Platform</li>
@@ -29,13 +30,59 @@
                 <li>About</li>
            </ul> 
        </nav>
-         <!--Acciones-->
+ 
          <div class="actions">
             <a href="">Sign in</a>
             <button>"Start free trial"</button>
          </div>
     </header>
-    </section>
+    </section> -->
+
+<!-- inicio de boostrap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="/" class="logo">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
+               </a>
+          <a class="navbar-brand" href="#">Matcha</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Start free trial</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- fin de boostrap-->
 
     <!--Esto es lo que se verá en el navegador web-->
     <section class="main">
@@ -55,7 +102,10 @@
                 Try it now &rarr;
             </button>
         </form>
-        <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" width="250"/>
+        <figure class="banner">
+            <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra"  />
+            <!--width="250"-->
+        </figure>
         <br>
         <img src="intro_group_image.png" 
        width="800px" alt="imagen promo">
@@ -74,7 +124,7 @@
             Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
           </p>
             <form>
-                <p>Start publishing today:
+                <p>Start publishing today:</p>
                 <div>
                     <input type="text" placeholder="Enter email" />
                     <button>Start My Trial</button>
@@ -89,7 +139,7 @@
     
     <section class="features">
         <article class="feature-card">
-            <div class="content">
+            <div class="feture-content">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png" alt="Publish icon">
                 </figure>
@@ -99,7 +149,7 @@
                     </p>
                     <a href="">Publish instantly →</a>
                 </div>
-                <div class="image">
+                <div class="feture-image">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Publish example">
                 </figure>
@@ -107,7 +157,7 @@
         </article>
 
         <article class="feature-card">
-            <div class="content">
+            <div class="feature-content">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Site traffic icon">
                 </figure>
@@ -117,7 +167,7 @@
                 </p>
                 <a href="">Get more site traffic →</a>
             </div>
-                <div class="image">
+                <div class="feature-image">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="Site traffic example">
                 </figure>
@@ -125,7 +175,7 @@
         </article>
 
         <article class="feature-card">
-            <div class="content">
+            <div class="feature-content">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="Capture icon">
                 </figure>
@@ -135,7 +185,7 @@
                     </p>
                     <a href="">Grow your email list faster →</a>
                 </div>
-                <div class="image">
+                <div class="feature-image">
                     <figure>
                         <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" alt="Capture example">
                     </figure>
@@ -143,7 +193,7 @@
         </article>
 
         <article class="feature-card">
-            <div class="content">
+            <div class="feature-content">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="ROI icon">
                 </figure>
@@ -153,12 +203,11 @@
                     </p>
                     <a href="">See content’s ROI →</a>
                     </div>
-                <div class="image">
+                <div class="feature-image">
                 <figure>
                     <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" alt="ROI example">
                 </figure>
                 </div>
-
         </article>
 
     </section>
