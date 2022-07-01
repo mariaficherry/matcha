@@ -1,0 +1,23 @@
+//_global.scss
+
+//Colores
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffffff;
+$gray: #4a4a4a;
+$lgray: #979797;
+$lemon-green:  #67b54b;
+
+/**
+Fuentes
+*/
+$font-title: "Alegreya", serif;
+
+%base-title {
+    font-family: $font-title;
+    color: $dark-green-text;
+}
+
+%base-metadata {
+    color: $lemon-green;
+}
