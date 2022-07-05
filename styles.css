@@ -105,6 +105,10 @@ li {
     text-align: center;
 }
 
+.texto-boton:hover {
+    background-color: #67b54b;
+}
+
 .publish {
     /*container styles if any*/
     margin-left: 30px;
